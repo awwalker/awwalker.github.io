@@ -12,3 +12,8 @@
     background-position: center;
     background-size: 100% auto;
 }
+
+.index-inner {
+    top: 50%;
+    color: #fff;
+}

@@ -30,7 +30,8 @@ a {
             transform: translateY(-50%);
 }
 .topbar {
-    fill: #fff;
+    fill: #FFF;
+    margin: 0;
     text-align: center;
     font-weight: 400;
     font-family: Arial;

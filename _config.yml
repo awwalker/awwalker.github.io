@@ -9,7 +9,7 @@ name: Aaron Walker
 description: Just Trying to Learn
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://www.facebook.com/photo.php?fbid=1023706730977639&set=ms.c.eJxFzsENwDAIA8CNKoMJhP0XaxsE~_R62jEAZcF~%3BICLd4pCB4gDlg39kIa0j5QfdUsirSlUABLviphA7sAjQIqjIJ0ZNwb~_BJrD0J1h~%3BzetCNgryzVrPUFzWEL60~-.bps.t.100000109176492&type=1&theater
+avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
 #
 # Flags below are optional
@@ -18,10 +18,10 @@ avatar: https://www.facebook.com/photo.php?fbid=1023706730977639&set=ms.c.eJxFzs
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: aw2341@nyu.edu
   facebook:
   flickr:
-  github: barryclark/jekyll-now
+  github: github.com/awwalker
   instagram:
   linkedin:
   pinterest:

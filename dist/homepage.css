@@ -1,3 +1,13 @@
+a {
+    background: transparent;
+    background-size: 2px 2px;
+    background-position: 0 20px;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 75%, rgba(0,0,0,0.8) 75%);
+    background-repeat: repeat-x;
+    color: inherit;
+}
+
 .index-body {
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;

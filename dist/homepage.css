@@ -44,16 +44,17 @@ a {
     padding: 0 0 30px;
 }
 
-.topbar a {
-    background-image: none;
-    -webkit-transition: color 0.2s;
-}
-
 .topbar span {
     font-weight: 700;
     font-size: 42px;
     color:white;
 }
+
+.topbar a {
+    background-image: none;
+    -webkit-transition: color 0.2s;
+}
+
 
 .ui.menu .item {
     font-weight: 300;

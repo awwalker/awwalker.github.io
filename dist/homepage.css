@@ -33,7 +33,7 @@ a {
     color: #fff;
     text-align: center;
     font-weight: 400;
-    font-family: Frutiger, Arial;
+    font-family: Arial;
     font-size: 50px;
     font-style: normal;
     letter-spacing: -0.02rem;
@@ -42,7 +42,6 @@ a {
 }
 
 .ui.menu .item {
-    font-family: Arial;
     font-weight: 300;
     font-size: 0.9rem;
 }

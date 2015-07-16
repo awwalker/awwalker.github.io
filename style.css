@@ -1,0 +1,171 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
+   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: inherit;
+}
+h1 {
+	font-size: 300%;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+	text-align: center;
+}
+
+h2{
+	font-size: 12px;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}	
+h3{
+	font-size: 12px;
+	font-style: italic;
+	color: grey;
+	text-align: center;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+p{
+	text-align: left;
+}
+
+.tooltip{
+	font-family: inherit;
+	font-size: 12px;
+	padding-left:4px;
+	padding-right:4px;
+	text-align: center;
+	background-color: white;
+	font-weight:600px;
+}
+
+
+.bar_sport{
+	text-anchor:middle;
+	padding-left:2px;
+	padding-right:2px;
+	font-size: 10px;
+	font-weight: bolder;
+	text-stroke:black;
+
+}
+
+.bar_boulder{
+	text-anchor:middle;
+	padding-left:2px;
+	padding-right:2px;
+	font-size: 10px;
+	font-weight: bolder;
+	text-stroke:black;
+
+}
+
+.guide{
+	position:absolute;
+	width:150px;
+	left:820px;
+	top:360px;
+	font-size:12px;
+	text-align: justify
+	z-index: +3;
+}
+
+
+[class = "x axis"]{
+  	stroke: black;
+  	fill: none;
+  	stroke-width: 1px;
+  	font-size: 9px;
+  	text-align: left;
+  	font-weight: normal;
+  	shape-rendering: crispEdges;
+}
+
+
+
+[class = "<=5.6"]{fill: #FBEBC1;}
+[class = "5.7"]{fill: #FFFF66;}
+[class = "5.8"]{fill: #FFA32F;}
+[class = "5.9"]{fill: #FF4500;}
+[class = "5.10"]{fill: #EB194A;}
+[class = "5.11"]{fill: #4E0178;}
+[class = "5.12"]{fill: #3D52C4;}
+[class = "5.13"]{fill: #20ADA3;}
+[class = ">=5.14"]{fill: #00924C;}
+[class = "<=V1"]{fill: #1253A4;}
+[class = "V2-3"] {fill: #12F6E9;}
+[class = "V4-5"]{fill: #1FDA9A;}
+[class = "V6-7"]{fill: #BD0102;}
+[class = "V8-9"]{fill: #1253A4;}
+[class = "V10-11"]{fill: #003058;}
+[class = "V12-13"]{fill: #D40E52;}
+[class = ">=V14"]{fill: #FF5A09;}
+
+path.link {
+  fill: none;
+  stroke: #666666;
+  stroke-width: 1.5px;
+}
+
+#guide_overall{
+	display: inherit
+}
+
+.background {
+  fill: none;
+  pointer-events: all;
+}
+
+#states {
+  fill: #aaa;
+  stroke: #fff;
+  stroke-linejoin: round;
+}
+
+#Loading{
+	position:absolute;
+	width:150px;
+	left:384px;
+	top:250px;
+	font-size: 20px;
+	z-index: -1;
+}
+
+
+#states .active {
+	fill: orange;
+
+}
+
+#state-borders {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1.5px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  pointer-events: none;
+}
+
+#sources{
+	display:inherit;
+	position:absolute;
+	left:10px;
+	top:620px;
+	font-size: 10px;
+}

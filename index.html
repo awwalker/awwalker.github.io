@@ -1,18 +1,35 @@
----
-layout: default
----
-
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+<!DOCTYPE html>
+<meta charset ="UTF-8">
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+   <title>SA United States Crags</title>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+   <script src="http://d3js.org/topojson.v1.min.js"></script>
+   <link href="style.css" rel="stylesheet">
+ </head>
+ <body>
+   <h1> Crag Path </h1>
+   <h2> Simulated Annealing on Climbing Crags in the United States</h2>
+   <h3> ~Hover over a crag location to see its route distribution and name~</h3>
+   <div id = 'Loading'>
+   		 <p> Loading Map...</p>
+   </div>
+   <div class = "guide" id = 'guide_overall'>
+  		 <p> Using <a href = "https://en.wikipedia.org/wiki/Simulated_annealing"> Simulated Annealing</a> (SA) it is possible to find an efficient, (not necessarily the optimal) route between several points in a graph. Here the locations are the top 50 climbing crags within the United States based on a post on <a href="http://www.8a.nu/">8a.nu</a>. 
+  		 </p>
+  	</div>
+   <div id="map">
+   </div>
+   <div id = "sources">
+   	<p> By Aaron Walker </br></br>
+   		Sources: </br>
+   		Inspired by <a href = "http://mortada.net/the-traveling-tesla-salesman.html"> this post</a> by Mortada Mehya </br>
+   		Map Code from <a href = "http://bl.ocks.org/mbostock/2206590"> Mike Bostock</a></br>
+   		Data provided by <a href = "http://www.mountainproject.com/"> Mountain Project</a><br>
+   		<a href = "http://www.8a.nu/"> 8a.nu</a>
+   </div>
+   <script type="text/javascript" src="map.js"></script>
+   
+ </body>
+</html>

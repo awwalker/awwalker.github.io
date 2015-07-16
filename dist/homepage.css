@@ -42,6 +42,7 @@ a {
 }
 
 .ui.menu .item {
+    font-family: Arial;
     font-weight: 300;
     font-size: 0.9rem;
 }

@@ -10,8 +10,10 @@ a {
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;
+    
     height: 100%;
     width: 100%;
+    
     background: #000;
     background-image: url('../images/Manhattan.png');
     background-repeat: no-repeat;
@@ -34,10 +36,9 @@ a {
     color: #FFF;
     margin: 0;
     text-align: center;
-    font-weight: 400;
+    font-weight: 300;
     font-family: Arial;
-    font-size: 50px;
-    font-style: normal;
+    font-size: 25px;
     letter-spacing: -0.02rem;
     line-height: 36px;
     padding: 0 0 30px;

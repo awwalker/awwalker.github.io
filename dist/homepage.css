@@ -40,7 +40,7 @@ a {
             transform: translateY(-50%);
 }
 .topbar {
-    fill: #FFF;
+    color: #FFF;
     margin: 0;
     text-align: center;
     font-weight: 400;

@@ -19,7 +19,7 @@
   max-width:450px;
 }
 .imgBox{
-  height:200px;
+  height:250px;
   overflow:hidden;
 }
 .imgBox img{
@@ -29,8 +29,8 @@
   color:white;
   margin:5% 0 2%;
 }
-.project{
+/*.project{
   max-width:450px;
   padding:0;
-}
+}*/
 

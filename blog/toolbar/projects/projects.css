@@ -19,14 +19,9 @@
   padding:0;
 }
 .imgBox{
-;
-	height:250px;
-	overflow:hidden;
+  height:250px;
+  overflow:hidden;
 }
 .imgBox img{
   width: 450px;
 }
-
-
-
-

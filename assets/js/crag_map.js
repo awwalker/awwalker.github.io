@@ -131,7 +131,7 @@ for(var i = 0; i < 8; i++){
 }
 
 //draw skeleton map
-d3.json("../data/us.json", function(error, us){
+d3.json("../../assets/data/us.json", function(error, us){
 	if(error) throw error;
 
 	 d3.select("#Loading")
@@ -151,7 +151,7 @@ d3.json("../data/us.json", function(error, us){
 		.attr('d', path);
 
 //read in the crag data created through python
-	d3.json("../data/crags_info.json", function(error, data){
+	d3.json("../../assets/data/crags_info.json", function(error, data){
 		var countyName = {};
 		var counts = [ {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {} ]
 /********************

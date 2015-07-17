@@ -20,6 +20,8 @@
 	padding:0;
 }
 .imgBox{
+	margin-top:5%;
+	margin-bottom:5%;
 	height:250px;
 	overflow:hidden;
 }
@@ -27,8 +29,7 @@
   width: 450px;
 }
 .project.h1{
-	margin-top:5%;
-	margin-bottom:5%;
+
 	font-family:Arial;
 	color:white;
 } 

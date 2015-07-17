@@ -15,6 +15,7 @@
   font-size: .9rem;
 }
 .text{
+  top:50%;
   font-family:Arial;
   font-weight:300px;
 }

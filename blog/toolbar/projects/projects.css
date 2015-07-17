@@ -10,7 +10,6 @@
   background-position: center;
   background-size: 100% auto;
 }
-
 .ui.menu .item{
   font-weight: 300;
   font-size: .9rem;
@@ -19,14 +18,18 @@
   margin:2%;
   max-width:450px;
 }
+.imgBox{
+  height:200px;
+  overflow:hidden;
+}
+.imgBox img{
+  width:450px;
+}
 .text{
   color:white;
   margin:5% 0 2%;
 }
-
-/*.project{
+.project{
   max-width:250px;
-}*/
-.img{
-  width:20px;
 }
+

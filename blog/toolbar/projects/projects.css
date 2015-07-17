@@ -10,10 +10,10 @@
   background-position: center;
   background-size: 100% auto;
 }
-h1{
+/*h1{
   top:5%;
   color:white;
-}
+}*/
 .ui.menu .item{
   font-weight: 300;
   font-size: .9rem;
@@ -22,7 +22,9 @@ h1{
   margin:2%;
 }
 .text{
-  margin:5%;
+  color:white;
+  
+  margin:5% 0 2%;
 }
 /*.column{
   margin:2%;

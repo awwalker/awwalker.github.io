@@ -10,28 +10,23 @@
   background-position: center;
   background-size: 100% auto;
 }
-/*h1{
-  top:5%;
-  color:white;
-}*/
+
 .ui.menu .item{
   font-weight: 300;
   font-size: .9rem;
 }
 .ui.segment{
   margin:2%;
+  max-width:250px;
 }
 .text{
   color:white;
-  
   margin:5% 0 2%;
 }
-/*.column{
-  margin:2%;
-}*/
-.project{
+
+/*.project{
   max-width:250px;
-}
+}*/
 .imgBox .img{
   width:200px;
 }

@@ -15,10 +15,11 @@
   font-size: .9rem;
 }
 .project {
-    padding:0;
+  margin:5%
+  padding:0;
 }
 .imgBox{
-    margin:5%;
+;
 	height:250px;
 	overflow:hidden;
 }

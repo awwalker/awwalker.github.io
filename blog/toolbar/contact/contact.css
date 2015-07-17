@@ -20,7 +20,15 @@
           transform: translateY(-50%);
 }
 .topbar{
-  position: static;
+  color:white;
+  margin:0;
+  text-align: center;
+  font-weight: 300;
+  font-family: Arial;
+  font-size:25px;
+  letter-spacing: -.02rem;
+  line-height: 36px;
+  padding: 0 0 30px;
 }
 .social{
   top: 50%;
@@ -29,6 +37,11 @@
   color:#fff;
   padding: 0 0 0;
   font-size: 28px;
+}
+
+.ui.menu .item{
+  font-weight: 300;
+  font-size: .9rem;
 }
 
 

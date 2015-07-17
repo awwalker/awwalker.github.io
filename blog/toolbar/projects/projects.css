@@ -10,7 +10,7 @@
   background-position: center;
   background-size: 100% auto;
 }
-h2{
+.ui.header{
   color:#fff;
 }
 .ui.menu .item{

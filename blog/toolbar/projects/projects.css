@@ -14,16 +14,13 @@
   font-weight: 300;
   font-size: .9rem;
 }
-
-.project {
-
-	margin:0;
-	padding:0;
-}
 .column{
 	background-color: #000;
 }
-
+.project {
+	margin:0;
+	padding:0;
+}
 img{
   width: 400px;
 }

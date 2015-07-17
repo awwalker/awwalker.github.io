@@ -30,6 +30,10 @@
   line-height: 36px;
   padding: 0 0 30px;
 }
+.topbar a {
+    background-image: none;
+    -webkit-transition: color 0.2s;
+}
 .social{
   top: 50%;
   text-align:center;

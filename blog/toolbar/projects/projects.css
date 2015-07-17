@@ -20,3 +20,6 @@
 .imgBox{
   max-width:250px;
 }
+.imgBox .img{
+  width:200px;
+}

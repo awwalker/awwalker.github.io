@@ -22,7 +22,7 @@
 .text{
   position: fixed;
   color:white;
-  left: 35px;
-  top: 35px;
+  left: 5%;
+  top: 5%;
   font-family:Arial;
 }

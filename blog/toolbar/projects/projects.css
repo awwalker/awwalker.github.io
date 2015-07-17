@@ -20,9 +20,10 @@
   font-weight:300px;
 }
 .project {
-	max-width:450px;
-	margin:0;
-	padding:0;
+  max-width:450px;
+  margin:0;
+  padding:0;
+  top:5%;
 }
 .ui.segment .h1{
   color:white;

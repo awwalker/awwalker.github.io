@@ -23,7 +23,7 @@ a {
 
 .index-inner {
     position: relative;
-    top: 50%;
+    top: 49%;
     padding: 20px 0;
     color: #FFF;
     -webkit-transform: translateY(-50%);

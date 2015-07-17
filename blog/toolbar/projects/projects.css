@@ -16,13 +16,18 @@
 }
 .column{
 	background-color: #000;
+	
 }
 .project {
 	margin:0;
 	padding:0;
 }
-img{
-  width: 400px;
+.imgBox{
+	height:200px;
+	overflow:hidden;
+}
+.imgBox img{
+  width: 450px;
 }
 
 

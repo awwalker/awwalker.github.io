@@ -1,5 +1,24 @@
-body{
-  background-color: #000;
+.index-body{
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  
+  height: 100%;
+  width: 100%;
+  
+  background: #000;
+  background-position: center;
+  background-size: 100% auto;
+}
+.index-inner{
+  position: relative;
+  top: 50%;
+  padding: 20px 0;
+  color: #fff;
+  -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 .social{
   text-align:center;

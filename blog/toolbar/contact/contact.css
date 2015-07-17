@@ -20,18 +20,7 @@
       -o-transform: translateY(-50%);
           transform: translateY(-50%);
 }
-.topbar{
-  
-  color:white;
-  margin:0;
-  text-align: center;
-  font-weight: 300;
-  font-family: Arial;
-  font-size:25px;
-  letter-spacing: -.02rem;
-  line-height: 36px;
-  padding: 0 0 30px;
-}
+
 .topbar a {
     background-image: none;
     -webkit-transition: color 0.2s;

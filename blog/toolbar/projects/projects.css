@@ -17,6 +17,9 @@
 .column{
   margin:2%;
 }
+.project{
+  max-width:450px;
+}
 .imgBox{
  height:250px;
  overflow:hidden;

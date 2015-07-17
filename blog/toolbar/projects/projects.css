@@ -18,8 +18,9 @@
   margin:2%;
 }
 .imgBox{
-  max-width:250px;
+ height:250px;
+ overflow:hidden;
 }
 .imgBox .img{
-  width:200px;
+  width:450px;
 }

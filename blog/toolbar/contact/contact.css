@@ -11,7 +11,7 @@
   background-size: 100% auto;
 }
 .index-inner{
-  top:50%;
+  
   position: relative;
   padding: 20px 0;
   color: #FFF;
@@ -21,6 +21,7 @@
           transform: translateY(-50%);
 }
 .topbar{
+  top:50%;
   color:white;
   margin:0;
   text-align: center;

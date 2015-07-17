@@ -11,6 +11,7 @@
   background-size: 100% auto;
 }
 .index-inner{
+  top:50%;
   position: relative;
   padding: 20px 0;
   color: #FFF;

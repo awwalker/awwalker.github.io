@@ -14,10 +14,6 @@
   font-weight: 300;
   font-size: .9rem;
 }
-.column{
-background-color: #000;
-	
-}
 .project {
 
 	margin:0;
@@ -31,8 +27,10 @@ background-color: #000;
   width: 450px;
 }
 .project.h1{
-    font-family:Arial;
-    color:white;
+	margin-top:5%;
+	margin-bottom:5%;
+	font-family:Arial;
+	color:white;
 } 
 
 

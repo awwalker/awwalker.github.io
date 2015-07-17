@@ -10,8 +10,8 @@
   background-position: center;
   background-size: 100% auto;
 }
-.ui.header{
-  color:#fff;
+h1{
+  margin:5%;
 }
 .ui.menu .item{
   font-weight: 300;

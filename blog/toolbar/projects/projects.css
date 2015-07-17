@@ -18,6 +18,9 @@
   margin:2%;
   max-width:450px;
 }
+.ui.segment a{
+  color:black;
+}
 .imgBox{
   height:250px;
   overflow:hidden;

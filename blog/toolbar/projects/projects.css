@@ -14,16 +14,10 @@
   font-weight: 300;
   font-size: .9rem;
 }
-.text{
-  top:70%;
-  font-family:Arial;
-  font-weight:300px;
-}
+
 .project {
-  max-width:450px;
-  margin:0;
-  padding:0;
-  top:5%;
+	margin:0;
+	padding:0;
 }
 .ui.segment .h1{
   color:white;

@@ -1,5 +1,4 @@
 .ui.menu .item{
-  top:15%;
   font-weight: 300;
   font-size: .9rem;
 }
@@ -11,5 +10,8 @@ h1{
 }
 img{
   width: 400px;
+}
+.ui.grid{
+  top:15%;
 }
 

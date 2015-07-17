@@ -17,4 +17,6 @@
 .column{
   margin:5%;
 }
-
+.imgBox{
+  max-width:250px;
+}

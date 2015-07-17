@@ -18,9 +18,12 @@ h1{
   font-weight: 300;
   font-size: .9rem;
 }
-.column{
+.ui.segment{
   margin:2%;
 }
+/*.column{
+  margin:2%;
+}*/
 .project{
   max-width:250px;
 }

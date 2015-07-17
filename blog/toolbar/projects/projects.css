@@ -1,3 +1,15 @@
+.index-body{
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  
+  height: 100%;
+  width: 100%;
+  
+  background: #000;
+  background-position: center;
+  background-size: 100% auto;
+}
 .ui.menu .item{
   font-weight: 300;
   font-size: .9rem;

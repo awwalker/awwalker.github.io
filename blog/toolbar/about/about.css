@@ -10,9 +10,12 @@
   background-position: center;
   background-size: 100% auto;
 }
-
 .ui.image{
   position: fixed;
   left: 5%;
   top: 5%;
+}
+.ui.menu .item{
+  font-weight: 300;
+  font-size: .9rem;
 }

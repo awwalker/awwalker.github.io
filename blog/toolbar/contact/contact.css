@@ -12,7 +12,6 @@
 }
 .index-inner{
   position: relative;
-  top: 50%;
   padding: 20px 0;
   color: #000;
   -webkit-transform: translateY(-50%);
@@ -20,7 +19,11 @@
       -o-transform: translateY(-50%);
           transform: translateY(-50%);
 }
+.topbar{
+  position: static;
+}
 .social{
+  top: 50%;
   text-align:center;
   font-weight: 700;
   color:#fff;

@@ -61,6 +61,6 @@ a {
     font-weight: 300;
     font-size: 0.9rem;
 }
-.topbar span:hover, .social a:hover {
+.topbar span:hover {
     color: rgba(255, 255, 255, 0.8);
 }

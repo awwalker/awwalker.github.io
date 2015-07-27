@@ -10,7 +10,7 @@
   width: 100%;
   
   background: #000;
-  background-position: absolute;
+  background-position: fixed;
   /*background-size: 100% auto;*/
 }
 .ui.menu .item{

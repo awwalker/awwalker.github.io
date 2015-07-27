@@ -33,7 +33,7 @@ svg.append("circle")
 	.attr("r", outerRadius);
 
 d3.json("../../assets/data/citi_stations.json", function(error, stations){
-	d3.json("../../assets/citi_data.json", function(error, matrix){
+	d3.json("../../assets/data/citi_data.json", function(error, matrix){
 
 		layout.matrix(matrix);
 

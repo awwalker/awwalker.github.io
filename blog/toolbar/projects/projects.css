@@ -1,5 +1,6 @@
 .body{
   background-color: #000;
+  overflow:auto;
 }
 .index-body{
   -webkit-transform-style: preserve-3d;

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<meta charset ="UTF-8">
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+   <title>New York City Citi Bike Usage</title>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+   <script src="http://d3js.org/topojson.v1.min.js"></script>
+   <link href="bike_style.css" rel="stylesheet">
+ </head>
+ <body>
+   <h1> Bike the City with Citi </h1>
+   <h2> How do New Yorkers use Citi Bikes?</h2>
+   <h3> ~Hover over a bike station to see its common routes or a strand to see the amount of trips between two stations~</h3>
+   <div class = 'guide'id = 'guide_overall'>
+      <p>
+         <a href="http://www.citibikenyc.com/">Citi bike</a> provides New Yorkers and visitors with a convenient and efficient alternative transportation option. There are hundreds of <a href="https://member.citibikenyc.com/map/">stations</a> and thousands of bikes available 24 hours a day 7 days a week. 
+      </p></br>
+      <p>
+         Obviously not all the stations are represented in this diagram. In order to present a clean diagram I had to reduce the number of stations. You can check out the associated blog post <a href = "">here</a> to see the code / reasoning behind this simplification if it interests you, or just take my word that these 17 stations were the most widely used during the month of July, 2013. 
+      </p>
+   </div>
+   <div id = "diagram">
+   </div>
+   <div id="sources">
+      <p> By Aaron Walker </br></br>
+         Sources: </br>
+         Inspired by <a href="http://mbostock.github.io/d3/talk/20111116/airports.html"> this post</a> by Mike Bostock </br>
+         Data Provided by <a href="http://www.citibikenyc.com/system-data"> Citi Bank</a><br>
+      </p>
+      </div>
+      <script type="text/javascript" src="bike_chord.js"></script>
+   </body>
+</html>

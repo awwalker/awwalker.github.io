@@ -1,14 +1,18 @@
+.body{
+  background-color: #000;
+  overflow:auto;
+}
 .index-body{
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
   
-  height: 100%;
+  /*height: 100%;*/
   width: 100%;
   
   background: #000;
-  background-position: center;
-  background-size: 100% auto;
+  background-position: absolute;
+  background-size: cover;
 }
 .ui.menu .item{
   font-weight: 300;

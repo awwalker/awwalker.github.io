@@ -2,15 +2,15 @@
   background-color: #000;
 }
 .index-body{
-  /*-webkit-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  */
+  
   height: 100%;
   width: 100%;
   
   background: #000;
-  background-position: fixed;
+  background-position: absolute;
   background-size: 100% 100%;
 }
 .ui.menu .item{

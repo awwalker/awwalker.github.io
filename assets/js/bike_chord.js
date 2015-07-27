@@ -32,8 +32,8 @@ var svg = d3.select("#diagram").append("svg")
 svg.append("circle")
 	.attr("r", outerRadius);
 
-d3.json("stations.json", function(error, stations){
-	d3.json("data.json", function(error, matrix){
+d3.json("../../assets/data/citi_stations.json", function(error, stations){
+	d3.json("../../assets/citi_data.json", function(error, matrix){
 
 		layout.matrix(matrix);
 

@@ -11,7 +11,7 @@
   
   background: #000;
   background-position: fixed;
-  /*background-size: 100% auto;*/
+  background-size: 100% 100%;
 }
 .ui.menu .item{
   font-weight: 300;

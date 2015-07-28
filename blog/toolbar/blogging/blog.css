@@ -49,8 +49,7 @@ footer.post-meta{
 }
 h1.page-title{
   top:20%;
-  position:absolute;
-  left:40%;
+  position:center;
 }
 .main-text.container{
   background:white;

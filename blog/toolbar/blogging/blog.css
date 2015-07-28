@@ -16,6 +16,9 @@
   left: 5%;
   top: 5%;
 }
+.ui.header{
+  position: center;
+}
 .ui.menu .item{
   font-weight: 300;
   font-size: .9rem;

@@ -8,7 +8,6 @@ a {
 .social{
     text-align:center;
     font-weight: 700;
-    color: #202020;
     padding:0 0 0;
 }
 .social a{
@@ -16,7 +15,7 @@ a {
     background-image:none;
     font-size:25px;
     padding: 0 0;
-    /*-webkit-transition:color .2s;*/
+    -webkit-transition:color .8s;
 }
 .index-body {
     -webkit-transform-style: preserve-3d;

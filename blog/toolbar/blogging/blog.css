@@ -33,17 +33,16 @@ a:hover{
 
 h2.post-title{
   text-align:left;
-  left:5%;
-  right:5%;
+  left:3%;
+  right:3%;
   position:relative;
-  margin-top:5%;
+  margin-top:3%;
 }
 p{
   text-align:left;
-  top:5%;
-  right:5%;
-  left:5%;
+  top:3%;
+  right:3%;
+  left:3%;
   position:relative;
-  margin-top:5%;
 }
 

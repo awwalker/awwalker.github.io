@@ -32,8 +32,8 @@ h2.post-title{
 p{
   display:inline-block;
   left:15%;
-
-  margin-right:15%;
+  padding-top:15px;
+  margin-right:20%;
   position:relative;
 }
 footer.post-meta{

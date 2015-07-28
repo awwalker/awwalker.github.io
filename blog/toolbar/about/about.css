@@ -6,7 +6,7 @@
   height: 100%;
   width: 100%;
   
-  background: #000;
+  background: #fff;
   background-position: center;
   background-size: 100% auto;
 }
@@ -22,7 +22,7 @@
 }
 .text{
   position: fixed;
-  color:white;
+  color:#191919;
   left: 5%;
   top: 25%;
   right: 5%;

@@ -22,7 +22,7 @@
   font-size: .9rem;
 }
 a {
-  color: #191919;
+  color: blue;
 }
 a:hover{
   color: rgba(32,32,32, 0.8);

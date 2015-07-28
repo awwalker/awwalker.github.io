@@ -30,10 +30,7 @@
 }
 .post{
   color: #191919;
-  top:10%
-  bottom:10%
-  right:10%;
-  left:10%;
+
 }
 .post-header .a:hover {
     color: rgba(32,32,32, 0.8);

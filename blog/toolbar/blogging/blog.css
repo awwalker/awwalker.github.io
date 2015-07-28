@@ -12,16 +12,8 @@
   
   color: #191919;
 }
-.ui.image{
-  width: 150px;
-  position: fixed;
-  left: 5%;
-  top: 5%;
-}
+
 .ui.header{
-  left: 5%;
-  top: 25%;
-  right: 5%;
   position: center;
   text-align: center;
 }

@@ -13,11 +13,11 @@
   color: #191919;
 }
 
-.ui.main.text.container{
+/*.ui.main.text.container{
   text-align: center;
   position:relative;
   top:5%;
-}
+}*/
 .ui.menu .item{
   font-weight: 300;
   font-size: .9rem;
@@ -59,7 +59,7 @@ h1.ui.header{
 }
 */
 .main-header-content.inner{
-  background:blue;
+  background:red;
   position:absolute;
 
   top:0;

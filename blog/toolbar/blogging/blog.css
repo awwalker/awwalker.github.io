@@ -25,11 +25,7 @@
 article{
   color:red;
 }
-.post{
-  color: #191919;
-
-}
-.post-header .a:hover {
-    color: rgba(32,32,32, 0.8);
+.post-title{
+  color:red;
 }
 

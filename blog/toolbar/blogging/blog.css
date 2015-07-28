@@ -28,6 +28,9 @@
   right: 5%;
   font-family:Arial;
 }
+.a{
+  color: #191919;
+}
 .post-header .a:hover {
     color: rgba(32,32,32, 0.8);
 }

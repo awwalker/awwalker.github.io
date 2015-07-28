@@ -46,7 +46,6 @@ footer.post-meta{
   position:relative;
   bottom:3%;
   text-align:left;
-  
 }
 /*h2.ui.header{
   position:relative;
@@ -59,7 +58,7 @@ h1.ui.header{
 }
 */
 .main-header-content.inner{
-  background:green;
+  background:blue;
   position:absolute;
   text-align: center;
   top:0;

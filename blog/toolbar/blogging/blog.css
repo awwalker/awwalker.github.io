@@ -23,7 +23,8 @@
   font-size: .9rem;
 }
 a {
-  color:#191919;
+  color: #191919;
+  font-weight:bold;
 }
 a:hover{
   color: rgba(32,32,32, 0.8);
@@ -50,8 +51,9 @@ footer.post-meta{
 h2.ui.header{
   position:relative;
   bottom:2%;
+  background: #F0F8FF;
 }
 h1.ui.header{
-  
+  background: #F0F8FF	;
   top:5%;
 }

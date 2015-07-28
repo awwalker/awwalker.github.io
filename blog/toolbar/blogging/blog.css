@@ -21,6 +21,7 @@ a:hover{
   color: rgba(32,32,32, 0.8);
 }
 h2.post-title{
+  display:inline-block;
   top:10%;
   left:15%;
   bottom:10%;
@@ -29,6 +30,7 @@ h2.post-title{
   position:relative;
 }
 p{
+  display:inline-block;
   left:15%;
   bottom:10%;
   top:10%;
@@ -38,7 +40,7 @@ p{
 footer.post-meta{
   position:relative;
   left:15%;
-  
+  display:inline-block;
 }
 .main-header-content.inner{
   background:#F5F5F5;
@@ -53,6 +55,7 @@ h1.page-title{
   top:20%;
   position:center;
   display:inline-block;
+  color:red;
 }
 .main-text.container{
   background:white;

@@ -16,7 +16,7 @@
 .ui.main.text.container{
   text-align: center;
   position:relative;
-  
+  top:5%;
 }
 .ui.menu .item{
   font-weight: 300;

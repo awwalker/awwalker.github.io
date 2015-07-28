@@ -61,7 +61,7 @@ a {
     color:#202020 ;
     top:49%;
 }
-.topbar a {
+.topbar a:hover, .social a:hover{
     background-image: none;
     -webkit-transition: color 0.2s;
 }

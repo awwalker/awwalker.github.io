@@ -33,7 +33,7 @@ a:hover{
 }
 h1{
   top:5%;
-
+  position:relative;
 }
 h2.post-title{
   color:red;
@@ -41,6 +41,7 @@ h2.post-title{
   margin-top:5%;
 }
 p{
+  position:relative;
   margin-top:5%;
 }
 

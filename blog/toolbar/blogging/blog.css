@@ -13,7 +13,7 @@
   color: #191919;
 }
 
-.ui header{
+.ui.header{
   position: center;
   text-align: center;
   top:80%;
@@ -22,7 +22,9 @@
   font-weight: 300;
   font-size: .9rem;
 }
-
+.post.title{
+  color:red;
+}
 .post{
   color: #191919;
 

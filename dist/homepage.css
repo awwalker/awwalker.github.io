@@ -5,7 +5,18 @@ a {
     text-decoration: none;
     color: inherit;
 }
-
+.social{
+    text-align:center;
+    font-weight: 700;
+    color: #fff;
+    padding:0 0 0;
+}
+.social a{
+    background-image:none;
+    font-size:20px;
+    padding: 0 0;
+    -webkit-transition:color .2s;
+}
 .index-body {
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;

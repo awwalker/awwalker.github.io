@@ -61,6 +61,13 @@ h1.page-title{
   color:#191919;
   font-family:Arial;
 }
+h2.page-description{
+  padding-top:5%;
+  position:center;
+  font-size:20px;
+  color:#DCDCDC;
+  font-family:Arial;
+}
 .main-text.container{
   background:white;
   position:absolute;

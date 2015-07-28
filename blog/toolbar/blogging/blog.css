@@ -20,7 +20,6 @@ a {
 a:hover{
   color: rgba(32,32,32, 0.8);
 }
-
 h2.post-title{
   top:5%;
   left:4%;
@@ -33,12 +32,15 @@ h2.post-title{
 p{
   left:4%;
   top:5%;
+  right:10%;
   text-align:left;
   position:relative;
 }
 footer.post-meta{
   position:relative;
   top:3%;
+  left:4%;
+  
   text-align:left;
 }
 .main-header-content.inner{
@@ -49,6 +51,9 @@ footer.post-meta{
   left:0;
   right:0;
   bottom:40%;
+}
+h1.page-title{
+  top:10%;
 }
 .main-text.container{
   background:white;

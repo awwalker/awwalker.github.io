@@ -7,13 +7,13 @@ a {
 }
 .social{
     text-align:center;
-    font-weight: 800;
+    font-weight: 700;
     color: #fff;
     padding:0 0 0;
 }
 .social a{
     background-image:none;
-    font-size:30px;
+    font-size:25px;
     padding: 0 0;
     -webkit-transition:color .2s;
 }

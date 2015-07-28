@@ -58,11 +58,15 @@ h1.ui.header{
 }
 */
 .main-header-content.inner{
-  background:blue;
+  background:red;
   position:absolute;
   text-align: center;
   top:0;
   left:0;
   right:0;
   bottom:20%;
+}
+.main-text.container{
+  background:green;
+  position:relative;
 }

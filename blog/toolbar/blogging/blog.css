@@ -69,4 +69,7 @@ h1.ui.header{
 .main-text.container{
   background:green;
   position:absolute;
+  top:10%;
+  left:0;
+  right:0;
 }

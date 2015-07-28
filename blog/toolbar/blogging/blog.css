@@ -39,7 +39,6 @@ h2.post-title{
 }
 p{
   text-align:left;
-
   position:relative;
 }
 footer.post-meta{
@@ -58,7 +57,7 @@ h1.ui.header{
 }
 */
 .main-header-content.inner{
-  background:red;
+  background:#F5F5F5;
   position:absolute;
   text-align: center;
   top:0;
@@ -67,7 +66,7 @@ h1.ui.header{
   bottom:40%;
 }
 .main-text.container{
-  background:green;
+  background:white;
   position:absolute;
   top:40%;
   left:0;

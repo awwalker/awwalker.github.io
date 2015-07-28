@@ -22,10 +22,10 @@ a:hover{
 }
 h2.post-title{
   display:inline-block;
-
+  padding-top:10%;
   left:15%;
 
-  margin-right:15%;
+  margin-right:30%;
   
   position:relative;
 }
@@ -33,12 +33,13 @@ p{
   display:inline-block;
   left:15%;
   padding-top:15px;
-  margin-right:20%;
+  margin-right:30%;
   position:relative;
 }
 footer.post-meta{
   position:relative;
   left:15%;
+  padding-top:5px;
   display:inline-block;
 }
 .main-header-content.inner{

@@ -28,4 +28,7 @@
   right: 5%;
   font-family:Arial;
 }
+.post-header .a:hover {
+    color: rgba(32,32,32, 0.8);
+}
 

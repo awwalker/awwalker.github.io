@@ -31,8 +31,12 @@ a:hover{
   color:#191919;
   top:15%;
 }
-section{
-  top:15%;
+h1{
+  top:5%;
+  bottom:5%;
+}
+h2{
+  bottom:5%;
 }
 
 

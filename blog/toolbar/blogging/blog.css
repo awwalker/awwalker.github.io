@@ -29,6 +29,7 @@ h2.post-title{
 }
 p{
   left:15%;
+  top:10%;
   margin-right:15%;
   position:relative;
 }
@@ -49,7 +50,7 @@ footer.post-meta{
 h1.page-title{
   top:20%;
   position:absolute;
-  left:45%;
+  left:40%;
 }
 .main-text.container{
   background:white;

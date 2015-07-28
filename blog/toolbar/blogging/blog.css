@@ -33,19 +33,19 @@ h2.post-title{
   text-align:left;
   position:relative;
   margin-top:3%;
+  bottom:1%;
   right:4%;
 }
 p{
   text-align:left;
-
   right:4%;
   position:relative;
 }
 footer.post-meta{
   position:relative;
-  top:3%;
+  bottom:3%;
   text-align:left;
-  left:2%;
+  
 }
 h2.ui.header{
   position:relative;

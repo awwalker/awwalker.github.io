@@ -64,9 +64,9 @@ h1.ui.header{
   top:0;
   left:0;
   right:0;
-  bottom:20%;
+  bottom:80%;
 }
 .main-text.container{
   background:green;
-  position:relative;
+  position:absolute;
 }

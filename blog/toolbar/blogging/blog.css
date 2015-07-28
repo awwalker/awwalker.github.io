@@ -33,7 +33,7 @@ a:hover{
 }
 h1{
   top:5%;
-  position:relative;
+  position:static;
 }
 h2.post-title{
   position:relative;

@@ -35,7 +35,7 @@ p{
   bottom:10%;
   top:10%;
   margin-right:15%;
-  position:relative;
+  position:absolute;
 }
 footer.post-meta{
   position:relative;

@@ -17,7 +17,6 @@
   text-align: center;
   position:relative;
   top:5%;
-  background:#F0F8FF	;
 }
 .ui.menu .item{
   font-weight: 300;
@@ -52,9 +51,9 @@ footer.post-meta{
 h2.ui.header{
   position:relative;
   bottom:2%;
-  background: #F0F8FF;
+  background: #E6E6FA;
 }
 h1.ui.header{
-  background: #F0F8FF	;
+  background: #E6E6FA	;
   top:5%;
 }

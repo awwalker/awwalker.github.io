@@ -23,12 +23,14 @@ a:hover{
 h2.post-title{
   top:10%;
   left:15%;
+  bottom:10%;
   margin-right:15%;
   
   position:relative;
 }
 p{
   left:15%;
+  bottom:10%;
   top:10%;
   margin-right:15%;
   position:relative;

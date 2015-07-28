@@ -16,7 +16,7 @@
 .ui.header{
   position: center;
   text-align: center;
-  top:80%;
+  
 }
 .ui.menu .item{
   font-weight: 300;
@@ -33,6 +33,6 @@ a:hover{
   top:15%;
 }
 section{
-  top:5%;
+  top:15%;
 }
 

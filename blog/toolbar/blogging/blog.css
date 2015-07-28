@@ -54,6 +54,7 @@ footer.post-meta{
 }
 h1.page-title{
   top:10%;
+  position:absolute;
 }
 .main-text.container{
   background:white;

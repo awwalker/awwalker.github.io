@@ -22,7 +22,9 @@
   font-weight: 300;
   font-size: .9rem;
 }
-
+a {
+  color: #191919;
+}
 .post-title{
   color:#191919;
   top:15%;

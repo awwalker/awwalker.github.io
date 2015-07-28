@@ -16,7 +16,6 @@
 .ui.main.text.container{
   text-align: center;
   position:relative;
-  top:5%;
   
 }
 .ui.menu .item{
@@ -51,4 +50,8 @@ footer.post-meta{
 h2.ui.header{
   position:relative;
   bottom:2%;
+}
+h1.ui.header{
+  position:relative;
+  top:5%;
 }

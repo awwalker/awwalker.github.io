@@ -24,7 +24,7 @@
   font-size: .9rem;
 }
 a {
-  color: #191919;
+  color: blue;
 }
 a:hover{
   color: rgba(32,32,32, 0.8);
@@ -32,10 +32,14 @@ a:hover{
 
 
 h2.post-title{
+  left:10%;
+  right:10%;
   position:relative;
   margin-top:5%;
 }
 p{
+  right:10%;
+  left:10%;
   position:relative;
   margin-top:5%;
 }

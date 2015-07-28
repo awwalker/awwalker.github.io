@@ -22,9 +22,9 @@ a:hover{
 }
 h2.post-title{
   display:inline-block;
-  top:10%;
+
   left:15%;
-  bottom:10%;
+
   margin-right:15%;
   
   position:relative;
@@ -32,10 +32,9 @@ h2.post-title{
 p{
   display:inline-block;
   left:15%;
-  bottom:10%;
-  top:10%;
+
   margin-right:15%;
-  position:absolute;
+  position:relative;
 }
 footer.post-meta{
   position:relative;

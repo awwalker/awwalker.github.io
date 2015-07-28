@@ -22,15 +22,14 @@ a:hover{
 }
 h2.post-title{
   top:5%;
-  left:4%;
+  left:15%;
   text-align:left;
   position:relative;
   margin-top:3%;
   bottom:1%;
-  
 }
 p{
-  left:4%;
+  left:15%;
   top:5%;
   right:10%;
   text-align:left;
@@ -39,7 +38,7 @@ p{
 footer.post-meta{
   position:relative;
   top:3%;
-  left:4%;
+  left:15%;
   
   text-align:left;
 }
@@ -55,6 +54,7 @@ footer.post-meta{
 h1.page-title{
   top:10%;
   position:absolute;
+  left:50%;
 }
 .main-text.container{
   background:white;

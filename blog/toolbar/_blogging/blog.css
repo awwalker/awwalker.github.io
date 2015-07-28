@@ -1,1 +1,31 @@
+.index-body{
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  
+  height: 100%;
+  width: 100%;
+  
+  background: #000;
+  background-position: center;
+  background-size: 100% auto;
+}
+.ui.image{
+  width: 150px;
+  position: fixed;
+  left: 5%;
+  top: 5%;
+}
+.ui.menu .item{
+  font-weight: 300;
+  font-size: .9rem;
+}
+.text{
+  position: fixed;
+  color:white;
+  left: 5%;
+  top: 25%;
+  right: 5%;
+  font-family:Arial;
+}
 

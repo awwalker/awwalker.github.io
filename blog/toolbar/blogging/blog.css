@@ -23,10 +23,10 @@ a:hover{
 h2.post-title{
   display:inline-block;
   padding-top:5%;
-  left:15%;
+  left:10%;
   font-size:28px;
   font-family:Arial;
-  margin-right:30%;
+  margin-right:20%;
   
   position:relative;
 }
@@ -34,15 +34,15 @@ p{
   font-family:Arial;
   font-size:14px;
   display:inline-block;
-  left:15%;
+  left:10%;
   padding-top:15px;
-  margin-right:30%;
+  margin-right:20%;
   position:relative;
 }
 footer.post-meta{
   position:relative;
-  left:15%;
-  padding-top:5%;
+  left:10%;
+  padding-top:3%;
   display:inline-block;
 }
 .main-header-content.inner{
@@ -55,7 +55,7 @@ footer.post-meta{
   bottom:40%;
 }
 h1.page-title{
-  padding-top:20%;
+  padding-top:10%;
   position:center;
   font-size:40px;
   color:#191919;

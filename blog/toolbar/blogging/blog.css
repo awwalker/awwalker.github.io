@@ -13,15 +13,6 @@
   color: #191919;
 }
 
-/*.ui.main.text.container{
-  text-align: center;
-  position:relative;
-  top:5%;
-}*/
-.ui.menu .item{
-  font-weight: 300;
-  font-size: .9rem;
-}
 a {
   color: #191919;
   font-weight:bold;
@@ -31,6 +22,8 @@ a:hover{
 }
 
 h2.post-title{
+  top:5%;
+  right:4%;
   text-align:left;
   position:relative;
   margin-top:3%;
@@ -38,24 +31,16 @@ h2.post-title{
   
 }
 p{
+  right:4%;
+  top:5%;
   text-align:left;
   position:relative;
 }
 footer.post-meta{
   position:relative;
-  bottom:3%;
+  top:3%;
   text-align:left;
 }
-/*h2.ui.header{
-  position:relative;
-  bottom:2%;
-  background: #F5F5F5;
-}
-h1.ui.header{
-  background: #F5F5F5	;
-  top:5%;
-}
-*/
 .main-header-content.inner{
   background:#F5F5F5;
   position:absolute;

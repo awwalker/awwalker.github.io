@@ -15,7 +15,7 @@ a {
     background-image:none;
     font-size:25px;
     padding: 0 0;
-    -webkit-transition:color .8s;
+    -webkit-transition:color 3s;
 }
 .index-body {
     -webkit-transform-style: preserve-3d;

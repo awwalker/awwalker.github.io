@@ -20,6 +20,7 @@
 }
 .ui.header{
   position: center;
+  text-align: center;
 }
 .ui.menu .item{
   font-weight: 300;

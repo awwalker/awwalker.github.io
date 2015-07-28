@@ -22,14 +22,17 @@ a:hover{
 }
 h2.post-title{
   display:inline-block;
-  padding-top:10%;
+  padding-top:5%;
   left:15%;
-
+  font-size:28px;
+  font-family:Arial;
   margin-right:30%;
   
   position:relative;
 }
 p{
+  font-family:Arial;
+  font-size:14px;
   display:inline-block;
   left:15%;
   padding-top:15px;
@@ -39,7 +42,7 @@ p{
 footer.post-meta{
   position:relative;
   left:15%;
-  padding-top:5px;
+  padding-top:5%;
   display:inline-block;
 }
 .main-header-content.inner{
@@ -52,10 +55,11 @@ footer.post-meta{
   bottom:40%;
 }
 h1.page-title{
-  top:20%;
+  padding-top:20%;
   position:center;
-  display:inline-block;
-  color:red;
+  font-size:40px;
+  color:#191919;
+  font-family:Arial;
 }
 .main-text.container{
   background:white;

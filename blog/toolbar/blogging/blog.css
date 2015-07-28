@@ -27,7 +27,6 @@ h2.post-title{
   font-size:28px;
   font-family:Arial;
   margin-right:20%;
-  
   position:relative;
 }
 p{
@@ -62,7 +61,7 @@ h1.page-title{
   font-family:Arial;
 }
 h2.page-description{
-  padding-top:10px;
+  padding-top:5px;
   position:center;
   font-size:30px;
   color:#DCDCDC;

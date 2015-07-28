@@ -23,6 +23,7 @@ a:hover{
 h2.post-title{
   top:5%;
   left:15%;
+  margin-right:15%;
   text-align:left;
   position:relative;
   margin-top:3%;
@@ -31,6 +32,7 @@ h2.post-title{
 p{
   left:15%;
   top:5%;
+  margin-right:15%;
   right:10%;
   text-align:left;
   position:relative;
@@ -54,7 +56,7 @@ footer.post-meta{
 h1.page-title{
   top:10%;
   position:absolute;
-  left:50%;
+  text-align:center;
 }
 .main-text.container{
   background:white;

@@ -41,12 +41,26 @@
         through each of the fifty climbing areas. A simple Google search brought me to 
         <a href="https://en.wikipedia.org/wiki/Travelling_salesman_problem">The Traveling Salesman Problem</a> (TSP). The TSP
         is a math problem that simply asks: given a list of cities and the distances between them what is the shortest path
-        that visits each city exactly once and returns to the origin.</p></br>
+        that visits each city exactly once and returns to the origin.</p>
         <p>The problem is deceptively simple. While easy to talk out the problem is in fact an 
         <a href="https://en.wikipedia.org/wiki/P_versus_NP_problem"> NP-hard</a> problem. While it is possible to find the 
         exact shortest path the algorithms used to perform these calculations are extremely time consuming. The most 
         direct solution would be to simply try all the different permutations (path options) and see which one is the 
         cheapest (shortest). However this approach yields a run time of O(n!), the factorial of the number of cities 
-        the salesman wishes to visit. This solution is obviously impractical.</p></br>
-        <p></p>
+        the salesman wishes to visit. This solution is obviously impractical once the salesman wishes to visit say 15 
+        or 20 cities.</p>
+        <p>Several algorithms exist to work on a TSP, some being more accurate, others being faster and more efficient. 
+        You can see some of these algorithms in action <a href="https://www.youtube.com/watch?v=SC5CX8drAtU">here</a>.
+        <a href="https://en.wikipedia.org/wiki/Simulated_annealing">Simulated Annealing</a> (SA) is a practical approach
+        to "solving" a TSP. SA offers a way to use probabilities to calculate an approximaion to the global optimum of a 
+        given function. The way SA works is similar to the process that gave it its name. Annealing in metallurgy is a 
+        technique that involves heating and cooling a material to both increase its size and reduce its defects. </p>
+        <p>At the most basic level the SA algorithm starts with a base solution and then at every step it looks a 
+        neighboring city of the current one and decides probabilistically whether to take the salesman there or 
+        stay put. The algorithm starts at a given temperature and then at each move the temperature is decreased until 
+        it reaches a given level (typically 0). Based on the current temperature the algorithm can decide to choose a 
+        "worse" solution in the hopes that later on it will be able to turn it into a better one. At high temperatures 
+        this probability is high, and likewise at lower temperatures the probability is low. This "cooling" process is 
+        what allows SA to provide a global approximation, rather than a local one like some other algorithms do.</p>
+        
       </section>

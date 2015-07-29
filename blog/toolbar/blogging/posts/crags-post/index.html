@@ -24,12 +24,7 @@
         </section>
       </header>
       <section class="post-content">
-        <p>In order to maintain a semblance of what I learned in school these last two years
-        I decided to devote some of my summer vacation to building a couple of projects, as well as this blog. 
-        This is my first post, and my first project, a visualization of fifty of America's best climbing areas and 
-        an efficient route between them. When I first started this project I imagined it taking at most a week, 
-        however, this end <a href="">visualization</a> ended up taking me closer to two or three weeks to put together.</p>
-        <p>The process started with the acquisition of data. In order to code up a visualization I knew I was going to need
+        <p>The process started with the acquisition of data. In order to code up a visualization I needed
         geographical coordinates in a latitude, longitude format. Before this project I had never used a scraper before.
         Luckily Beautiful Soup 4 <a href="http://www.crummy.com/software/BeautifulSoup/">(BS4)</a> makes scraping incredibly
         easy, even for a first-timer like me. Because I was working with climbing data I decided to get my data from 
@@ -61,6 +56,9 @@
         it reaches a given level (typically 0). Based on the current temperature the algorithm can decide to choose a 
         "worse" solution in the hopes that later on it will be able to turn it into a better one. At high temperatures 
         this probability is high, and likewise at lower temperatures the probability is low. This "cooling" process is 
-        what allows SA to provide a global approximation, rather than a local one like some other algorithms do.</p>
+        what allows SA to provide a global approximation, rather than a local one like some other algorithms do.
+        Each run of an SA algorithm provides a new approximation so different routes will be suggested, however, each suggested
+        route is by far more efficient than one found through a greedy algorithm.</p>
+        <p>Check out the code below to get a better idea of what the Simulated Annealing algorithm is and how to implement it.</p>
         
       </section>

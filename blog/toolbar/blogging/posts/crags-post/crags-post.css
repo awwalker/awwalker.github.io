@@ -30,11 +30,11 @@ h2.post-title{
 }
 p{
   font-family:Arial;
-  font-size:20px;
+  font-size:15px;
   display:inline-block;
   left:10%;
   
-  padding-top:15px;
+  padding-top:25px;
   margin-right:20%;
   position:relative;
 }
@@ -70,7 +70,7 @@ h2.page-description{
 .post-content{
   background:white;
   position:absolute;
-  top:40%;
+  top:30%;
   left:0;
   right:0;
   bottom:0;

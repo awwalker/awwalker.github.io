@@ -27,6 +27,26 @@
         <p>In order to maintain a semblance of what I learned in school these last two years
         I decided to devote some of my summer vacation to building a couple of projects, as well as this blog. 
         This is my first post, and my first project, a visualization of fifty of America's best climbing areas and 
-        an efficient route between them. </p></br>
+        an efficient route between them. When I first started this project I imagined it taking at most a week, 
+        however, this end <a href="">visualization</a> ended up taking me closer to two or three weeks to put together.</p>
+        <p>The process started with the acquisition of data. In order to code up a visualization I knew I was going to need
+        geographical coordinates in a latitude, longitude format. Before this project I had never used a scraper before.
+        Luckily Beautiful Soup 4 <a href="http://www.crummy.com/software/BeautifulSoup/">(BS4)</a> makes scraping incredibly
+        easy, even for a first-timer like me. Because I was working with climbing data I decided to get my data from 
+        <a href="http://www.mountainproject.com/">Mountain Project</a> (MP). With BS4 I was able to isolate the element on each
+        climbing areas page that held the coordinates corresponding to its location, the Python code I used is below. 
+        Unfortunately I had to manually tell BS4 which page to visit, however, I definitely saved time pulling directly from
+        MP. </p>
+        <p>Now that we have our data how can we use it? Originally I simply wanted to know if I could find an efficient route 
+        through each of the fifty climbing areas. A simple Google search brought me to 
+        <a href="https://en.wikipedia.org/wiki/Travelling_salesman_problem">The Traveling Salesman Problem</a> (TSP). The TSP
+        is a math problem that simply asks: given a list of cities and the distances between them what is the shortest path
+        that visits each city exactly once and returns to the origin.</p></br>
+        <p>The problem is deceptively simple. While easy to talk out the problem is in fact an 
+        <a href="https://en.wikipedia.org/wiki/P_versus_NP_problem"> NP-hard</a> problem. While it is possible to find the 
+        exact shortest path the algorithms used to perform these calculations are extremely time consuming. The most 
+        direct solution would be to simply try all the different permutations (path options) and see which one is the 
+        cheapest (shortest). However this approach yields a run time of O(n!), the factorial of the number of cities 
+        the salesman wishes to visit. This solution is obviously impractical.</p></br>
         <p></p>
       </section>

@@ -46,7 +46,7 @@ p{
   position:absolute;
   text-align:left;
   top:0;
-  left:0;
+  left:10%;
   right:0;
   bottom:40%;
 }
@@ -66,8 +66,8 @@ h2.page-description{
 }
 .post-content{
   background:white;
-  position:absolute;
-  top:60%;
+  position:relative;
+  top:10%;
   left:0;
   right:0;
   bottom:0;

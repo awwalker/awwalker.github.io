@@ -63,7 +63,7 @@ h2.page-description{
 }
 .post-content{
   background:white;
-  position:absolute;
+  position:relative;
   padding-top:0;
   left:0;
   right:0;

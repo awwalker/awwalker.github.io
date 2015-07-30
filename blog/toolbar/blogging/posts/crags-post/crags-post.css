@@ -29,7 +29,7 @@ p{
 }
 .post-meta{
   position:relative;
-  padding-top:-5px;
+  padding-top:0px;
 }
 .main-header{
   background:white;
@@ -37,7 +37,7 @@ p{
   text-align:left;
   top:0;
   left:10%;
-  right:20%;
+  margin-right:20%;
 }
 .post-date{
   position:relative;
@@ -45,7 +45,7 @@ p{
   color:#A9A9A9;
 }
 h1.post-title{
-  right:20%;
+  margin-right:20%;
   padding-top:5%;
   position:center;
   font-size:50px;

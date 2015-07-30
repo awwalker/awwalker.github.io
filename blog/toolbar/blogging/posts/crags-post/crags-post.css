@@ -47,8 +47,13 @@ p{
   left:10%;
   right:0;
 }
+.post-date{
+  position:relative;
+  top:0;
+  color:#F5F5F5;
+}
 h1.post-title{
-  padding-top:10%;
+  padding-top:5%;
   position:center;
   font-size:40px;
   color:#191919;

@@ -19,14 +19,6 @@ a {
 a:hover{
   color: rgba(32,32,32, 0.8);
 }
-h2.post-title{
-  padding-top:5%;
-  left:10%;
-  font-size:40px;
-  font-family:Arial;
-  margin-right:20%;
-  position:relative;
-}
 p{
   font-family:Arial;
   font-size:15px;
@@ -55,15 +47,8 @@ p{
 h1.post-title{
   padding-top:5%;
   position:center;
-  font-size:40px;
+  font-size:50px;
   color:#191919;
-  font-family:Arial;
-}
-h2.page-description{
-  padding-top:1px;
-  position:center;
-  font-size:30px;
-  color:#A9A9A9;
   font-family:Arial;
 }
 .post-content{

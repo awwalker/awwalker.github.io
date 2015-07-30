@@ -65,7 +65,7 @@ h2.page-description{
 }
 .post-content{
   background:white;
-  position:relative;
+  position:absolute;
   top:10%;
   left:0;
   right:0;

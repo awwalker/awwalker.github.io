@@ -29,7 +29,7 @@ p{
 }
 .post-meta{
   position:relative;
-  padding-top:0px;
+  margin-top:-10px;
 }
 .main-header{
   background:white;

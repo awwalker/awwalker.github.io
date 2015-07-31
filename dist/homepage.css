@@ -11,7 +11,7 @@ a {
     padding:0 0 0;
 }
 .social a{
-    color:#202020;
+    color:white;
     background-image:none;
     font-size:25px;
     padding: 0 0;
@@ -44,7 +44,7 @@ a {
 }
 
 .topbar {
-    color: #E0E0E0;
+    color: white;
     margin: 0;
     text-align: center;
     font-weight: 300;
@@ -58,7 +58,7 @@ a {
 .topbar span {
     font-weight: 700;
     font-size: 42px;
-    color:#202020 ;
+    color:white ;
     top:49%;
 }
 .topbar a, .social a{

@@ -16,12 +16,8 @@
   left: 5%;
   top: 5%;
 }
-.ui.menu .item{
-  font-weight: 300;
-  font-size: .9rem;
-}
 .text{
-  position: relative;
+  position: absolute;
   color:#191919;
   left: 5%;
   top: 25%;

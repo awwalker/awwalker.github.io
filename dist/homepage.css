@@ -25,7 +25,8 @@ a {
     width: 100%;
     
     background: #000;
-    background-image: url('../images/yosemite full.png');
+    /*background-image: url('../images/yosemite full.png');*/
+    background-image: url('../images/tuolumne.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% auto;

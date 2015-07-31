@@ -12,12 +12,14 @@
 }
 .ui.image{
   width: 150px;
-  position: fixed;
+  position: relative;
+  float:left;
   left: 5%;
   top: 5%;
 }
 .text{
-  position: fixed;
+  float:left;
+  position: relative;
   color:#191919;
   left: 5%;
   top: 5%;

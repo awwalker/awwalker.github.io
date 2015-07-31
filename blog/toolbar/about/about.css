@@ -10,19 +10,19 @@
   background-position: center;
   background-size: 100% auto;
 }
-.ui.image{
+.ui.circular.image{
   width: 150px;
   position: relative;
   float:left;
-  left: 5%;
+  left: 10%;
   top: 5%;
 }
 .text{
   float:left;
   position: relative;
   color:#191919;
-  left: 5%;
-  top: 5%;
+  left: 10%;
+  top: 20%;
   margin-right: 10%;
   font-family:Arial;
 }

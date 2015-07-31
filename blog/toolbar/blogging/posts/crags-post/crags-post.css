@@ -31,6 +31,12 @@ p{
   position:relative;
   margin-top:-30px;
 }
+.page-header{
+  font-family:Arial;
+  position:relative;
+  padding-top:5%;
+  left:5%;
+}
 .main-header{
   font-family:Arial;
   background:white;

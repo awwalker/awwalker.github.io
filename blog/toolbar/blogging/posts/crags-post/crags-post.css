@@ -16,19 +16,6 @@ div#notebook {
   border-top: none;
 }
 
-@media print {
-  div.cell {
-    display: block;
-    page-break-inside: avoid;
-  } 
-  div.output_wrapper { 
-    display: block;
-    page-break-inside: avoid; 
-  }
-  div.output { 
-    display: block;
-    page-break-inside: avoid; 
-  }
 a {
   color: #191919;
   font-weight:bold;

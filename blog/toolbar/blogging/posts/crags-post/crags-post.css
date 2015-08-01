@@ -66,6 +66,7 @@ h1.post-title{
   padding-top:30px;
 }
 .code-content{
+  position:relative;
   margin-right:30%;
   left:15%;
   font-family:Arial;

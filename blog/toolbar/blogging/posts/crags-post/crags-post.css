@@ -11,10 +11,6 @@
   background-size: 100% auto;
   color: #191919;
 }
-div#notebook {
-  overflow: visible;
-  border-top: none;
-}
 
 a {
   color: #191919;

@@ -64,8 +64,11 @@ h1.post-title{
   background:white;
   position:relative;
   padding-top:30px;
-  left:0;
-  right:0;
-  bottom:0;
+}
+.code-content{
+  margin-right:30%;
+  left:15%;
+  font-family:Arial;
+  
 }
 

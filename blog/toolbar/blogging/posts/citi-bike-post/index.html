@@ -39,14 +39,14 @@
       	<p>Because Citi is nice enough to clean their data working with it as a CSV with Pandas was incredibly easy. In fact one of the hardest parts of this project was trying to figure out a clean and still relevant way to present the data. After looking at different visalizations online I came across this <a href= "http://bost.ocks.org/mike/uberdata/"> Uber data visualization</a> by Mike Bostock. Mike made it look so easy to represent this kind of back and forth travel relationship using the chord diagram so I figured I should give it a shot. I seriously considered using a heat matrix as well but figured a chord diagram would look cleaner with the amount of data I was going to try and represent.</p>
       	<p>Speaking of the volume of data...while the csv file itself was not that large ~100MB and ~840,000 rows in Excel it is important to remember that this represents a flow of traffic between 322 stations, not the less than 30 or so neighboorhoods used by Mike. The whole idea behind the visualization was to attempt to see the traffic flow between docking stations, yet because there are so many stations it was nearly impossible to include all of them. In fact my first chord diagram looked like a completely colored in circle, just a mess of lines criss crossing the diagram making any sort of inference impossible.</p>
       	<p>I decided that I needed to pick which stations to observe and which to ignore. Using Pandas it was easy to group stations by how they interacted with each other and then tally up the amount of traffic there was going between them (in both directions). Once I had the data in this format it was easy to see that many stations either had no traffic or very little traffic. Now that my data frame was formatted to look at each start station and the available end stations I created a count column that measured the amount of stops between start station and each end station.</p>
-      	<p>D3 is able to read in data in several forms, I decided to format my data as a two separate json files: One that listed the relavant stations in alphabetical order and one that saved the amount of traffic between each station as a list of lists. In order to filter out the less used I iterated through my list of stations looking at first a start station and then all the possible end stations. In my data frame I was able to then retrieve the count between the two stations. Then if the number of trips between the two stations was more than or equal to 10 I would add that value to a list of values representing traffic. If it was less than ten I would just add a 0. Then to further reduce the number os stations I would then iterate through the list of traffic values and if the traffic values list for a given station has more 0s in it than true trafic values I discard that station. If the station does have more true values than 0s AND it has more than 300 total trips taken from it I finally accept that station as a 'good' station and add it to one last list of final stations and take the list of traffic values for this station and add it to a list of lists representing all traffic.</p>
-        <p>This probably sounds much more complicated than it actually was. In fact there was probably even an easier way to accomplish this simple task with Pandas, but my way allowed me to experiment and explore. Check out the code below if you had trouble understanding my explanation above.</p>
+      	<p>D3 is able to read in data in several forms, I decided to format my data as a two separate json files: One that listed the relavant stations in alphabetical order and one that saved the amount of traffic between each station as a list of lists. In order to filter out the less used I iterated through my list of stations looking at first a start station and then all the possible end stations.In my data frame I was able to then retrieve the count between the two stations. Then if the number of trips between the two stations was more than or equal to 10 I would add that value to a list of values representing traffic. If it was less than ten I would just add a 0. Then to further reduce the number os stations I would then iterate through the list of traffic values and if the traffic values list for a given station has more 0s in it than true trafic values I discard that station. If the station does have more true values than 0s AND it has more than 300 total trips taken from it I finally accept that station as a 'good' station and add it to one last list of final stations and take the list of traffic values for this station and add it to a list of lists representing all traffic. Check out the code below for a better understanding.</p>
+        
       </section>
       <section class = "code-content">
 
       <div class="cell border-box-sizing code_cell rendered">
       <div class="input">
-      <div class="prompt input_prompt">In&nbsp;[2]:</div>
+      
       <div class="inner_cell">
       <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="kn">import</span> <span class="nn">csv</span>
@@ -62,7 +62,7 @@
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">dataPath</span> <span class="o">=</span> <span class="s">&#39;../Desktop/Data/2013-07 - Citi Bike trip data.csv&#39;</span>
@@ -206,7 +206,7 @@ York St &amp; Jay St   W 22 St &amp; 10 Ave                    1
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s">&quot;stations.json&quot;</span><span class="p">,</span> <span class="s">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">outfile</span><span class="p">:</span>
@@ -220,7 +220,7 @@ York St &amp; Jay St   W 22 St &amp; 10 Ave                    1
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[71]:</div>
+
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="c"># repeat above process but only for stations we want</span>
@@ -254,7 +254,7 @@ York St &amp; Jay St   W 22 St &amp; 10 Ave                    1
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[72]:</div>
+
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="c">#convert list to numpy array so that the integer transformation </span>
@@ -269,4 +269,4 @@ York St &amp; Jay St   W 22 St &amp; 10 Ave                    1
 </div>
 
 </div>
-      </section>
+</section>

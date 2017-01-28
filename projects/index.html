@@ -1,51 +1,30 @@
-<! DOCTYPE HTML>
-<html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <title>Projects</title>
-    
-    <link rel="stylesheet" type="text/css" href="../../../dist/semantic.css" />
-    <link rel="stylesheet" type="text/css" href="./projects.css" />
-    <!link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.13.0/css/semantic.min.css">
-    
-    <script src="../../../dist/semantic.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
-    
-  </head>
-  
-  <body>
-    <nav class="ui fixed menu inverted navbar">
-      <a href="../" class="item">Home</a>
-      <a href="../about/" class="item">About</a>
-      <a href="" class="active item">Projects</a>
-      <a href="../blog/" class="item">Blog</a>
-      <!--a href="" class="item">Resumé</a> -->
-      <!--<a href="../contact/index.html" class="item">Contact</a>>-->
-    </nav>
-    <div class="index-body">
-      <!--<h1>Projects</h1> -->
-      <div class="ui one column grid">
+---
+layout: default
+css: ./projects.css
+title: Projects
+
+---
+
+<div class="index-body">
+    <div class="ui one column grid">
         <div class="column">
-          <div class="text">
-            <h1>Projects</h1>
-          </div>
+            <div class="text">
+                <h1>Projects</h1>
+            </div>
             <div class="ui segment">
                 <a href="./simulated-annealing-crag/crags_index.html"><h2>Crag Path</h2></a>
-             <div class="imgBox">
-                <a href="./simulated-annealing-crag/crags_index.html"><img src="../../../images/Crag-Path.png"></a>
-             </div>
+                <div class="imgBox">
+                    <a href="./simulated-annealing-crag/crags_index.html"><img src="../../../images/Crag-Path.png"></a>
+                </div>
                 <p>Uses Simulated Annealing to calculate an efficent route between 50 climbing crags in the United States.</p>
             </div>
             <div class="ui segment">
                 <a href="./citi-bike-chords/citi_index.html"><h2>NYC Citi Bikes</h2></a>
-            <div class="imgBox">
-                <a href="./citi-bike-chords/citi_index.html"><img src='../../../images/Citi-Bike.png'></a>
-            </div>
+                <div class="imgBox">
+                    <a href="./citi-bike-chords/citi_index.html"><img src='../../../images/Citi-Bike.png'></a>
+                </div>
                 <p>Chord Diagram showing relationships between Citi Bike stations in New York Citi.</p>
-          </div>
+            </div>
         </div>
-      </div>
     </div>
-  </body>
-</html>
+</div>

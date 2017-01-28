@@ -1,9 +1,11 @@
 ---
+
 layout: post
 title: "Visualizing How New Yorkers Utilize Citi Bikes"
 date: 2015-10-27
 url: "http://awwalker.github.io/blog/2015-10-27/citi-bikes"
 excerpt: "Imagine for a moment that you are a <a href="http://www.urbandictionary.com/define.php?term=Dirtbag+Climber">dirtbag climber</a> who wants to visit as many of the great American climbing locations in one trip"
+
 ---
 <section class = "post-content">
   <p><a href = "https://www.citibikenyc.com/about"> Citi Bike</a> is New York City's bike sharing system instituted by Citi Bank and operated by <a href = "http://www.motivateco.com/"> Motivate</a>. The bike sharing system is designed to provide New Yorkers an additional method of transportation around the city. As a whole the system is fairly simple to understand: there is a fleet of bicycles that can be rented from and then returned to any of the hundreds of docking stationsin the city. As of May 2013 Citi had installed 332 docking stations and stocked them with 6,000 bikes. Plans were made for expansion but I could not find any publicly released data on the current number of stations or bikes. </p>

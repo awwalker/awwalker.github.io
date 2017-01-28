@@ -15,15 +15,11 @@
   </head>
   
   <body>
-   <!-- <nav class="ui fixed menu inverted navbar">
-      <a href="../../../index.html" class="item">Home</a>
-      <a href="../about/index.html" class="item">About</a>
-      <a href="../projects/index.html" class="item">Projects</a>
-      <a href="" class='active item'>Blog</a>
-      <a href="" class="item">Resumé</a>
-      <a href="../contact/index.html" class="item">Contact</a>
+    <nav class="ui fixed menu inverted navbar">
+      <a href="/" class="item">Home</a>
+      <a href="/about/" class="item">About</a>
+      <a href="/projects/" class="item">Projects</a>
     </nav>
-    -->
     <div class="index-body">
       <header class="main-header no-cover">
         <div class="main-header-content inner">
@@ -32,6 +28,25 @@
         </div>
       </header>
       <div class="main-text container">
+          <ul class="posts">
+            {% for post in site.posts %}
+                <li>
+                    <article class="post">
+                        <header class="post-header">
+                            <h2 class="post-title"><a href="{{ post.url }}" title="{{ post.title }}"></a></h2>
+                        </header>
+                        <section class="post-excerpt">
+                            <p>{{ post.excerpt }}...<a class="read-more" href="{{ post.url }}">»</a></p>
+                        </section>
+                        <footer class="post-meta">
+                            <time class="post-date" datetime="{{ post.date | date_to_string }}">{{ post.date | date_to_string }}</time>
+                        </footer>
+                    </article>
+                </li>
+            {% endfor%}
+          </ul>
+
+          <!--
         <article class="post">
           <header class="post-header">
             <h2 class="post-title"><a href="./posts/crags-post/index.html">Simulated Annealing on Climbing Areas in America</a></h2>
@@ -41,7 +56,6 @@
             to visit as many of the great American climbing locations in one trip...<a class="read-more" href="./posts/crags-post/index.html">»</a></p>
           </section>
           <footer class="post-meta">
-            <a href="">Aaron Walker</a>
             <time class="post-date" datetime="2015-06-15">15 June 2015</time>
           </footer>
         </article>
@@ -51,14 +65,14 @@
           </header>
           <section class='post-excerpt'>
             <p>Taking data provided by <a href='http://www.citibikenyc.com/system-data'>Citi</a> I was able to use 
-            <a href=''>pandas</a>, a Python library, to trim and format it to be more easily read by 
-            <a href="http://d3js.org/">d3</a>...<a href=''>»</a></p>
+            <a href='http://pandas.pydata.org/'>pandas</a>, a Python library, to trim and format it to be more easily read by 
+            <a href="http://d3js.org/">d3</a>...<a href='./posts/citi-bike-post/'>»</a></p>
           </section>
           <footer class="post-meta">
-            <a href="">Aaron Walker</a>
             <time class="post-date" datetime="2015-07-27">27 October 2015</time>
           </footer>
         </article>
+          -->
       </div>
     </div>
   </body>

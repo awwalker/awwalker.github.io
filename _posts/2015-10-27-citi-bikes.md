@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Visualizing How New Yorkers Utilize Citi Bikes"
-date: "2015-10-27"
+date: 2015-10-27
+url: "http://awwalker.github.io/blog/2015-10-27/citi-bikes"
 excerpt: "Imagine for a moment that you are a <a href="http://www.urbandictionary.com/define.php?term=Dirtbag+Climber">dirtbag climber</a> who wants to visit as many of the great American climbing locations in one trip"
 ---
 <section class = "post-content">

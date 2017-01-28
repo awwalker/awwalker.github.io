@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    
+    <title>Citi Bike Visualization</title>
+    <link rel="stylesheet" type="text/css" href="/dist/semantic.css" />
+    <link rel="stylesheet" type="text/css" href="./post.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.13.0/css/semantic.min.css">
+    
+    <script src="/dist/semantic.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+    
+  </head>
+  
+  <body>
+    <div class="index-body">
+      <header class="page-header">
+        <a href="/">
+        <button class="ui mini basic animated button">
+            <div class="visible content">Home</div>
+          <div class="hidden content">
+            <i class="left arrow icon"></i>
+          </div>
+        </button>
+        </a>
+      </header>
+      <header class="main-header no-cover">
+          <h1 class="post-title">{{ post.title }}</h1>
+          <section class="post-meta">
+              <time class='post-date' datetime="{{ post.date | date_to_string }}">{{post.date | date_to_string}}</time>
+          </section>
+      </header>
+
+      <section class="post-content">
+          {{content}}
+      </section>
+    </div>
+</body>

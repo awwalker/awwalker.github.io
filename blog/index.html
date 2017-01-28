@@ -29,12 +29,13 @@
       </header>
       <div class="main-text container">
             {% for post in site.posts %}
+                <p> hello </p>
                     <article class="post">
                         <header class="post-header">
                             <h2 class="post-title"><a href="{{ post.url }}" title="{{ post.title }}"></a></h2>
                         </header>
                         <section class="post-excerpt">
-                            <p>"{{ post.excerpt }}"...<a class="read-more" href="{{ post.url }}">»</a></p>
+                            <p>{{ post.excerpt }}...<a class="read-more" href="{{ post.url }}">»</a></p>
                         </section>
                         <footer class="post-meta">
                             <!--    <time class="post-date" datetime="{{ post.date | date_to_string }}">{{ post.date | date_to_string }}</time>-->

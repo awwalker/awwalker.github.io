@@ -28,23 +28,19 @@
         </div>
       </header>
       <div class="main-text container">
-          <ul class="posts">
             {% for post in site.posts %}
-                <li>
                     <article class="post">
                         <header class="post-header">
                             <h2 class="post-title"><a href="{{ post.url }}" title="{{ post.title }}"></a></h2>
                         </header>
                         <section class="post-excerpt">
-                            <p>{{ post.excerpt }}...<a class="read-more" href="{{ post.url }}">»</a></p>
+                            <p>"{{ post.excerpt }}"...<a class="read-more" href="{{ post.url }}">»</a></p>
                         </section>
                         <footer class="post-meta">
                             <!--    <time class="post-date" datetime="{{ post.date | date_to_string }}">{{ post.date | date_to_string }}</time>-->
                         </footer>
                     </article>
-                </li>
             {% endfor%}
-          </ul>
 
           <!--
         <article class="post">

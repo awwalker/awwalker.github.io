@@ -6,7 +6,7 @@ layout: null
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Always Learning</title>
-        <link>{{ site.url | append: '/blog' }}</link>
+        <link>{{ site.url }}</link>
         {% for post in site.posts %}
             <item>
                 <title>{{ post.title | xml_escape }}</title>

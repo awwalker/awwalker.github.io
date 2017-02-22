@@ -9,7 +9,7 @@ css: /blog/post.css
 ---
 <section class="post-content">
     <h3> Simple LED Circuit </h3>
-    <img src="/images/lab0/simple_led_circuit.jpg" alt="Simple LED Circuit" width="400" height="400">
+    <img src="/images/lab0/simple_led_circuit.JPG" alt="Simple LED Circuit" width="400" height="400">
     <p> We use a resistor to limit the amount of current running through the circuit when it reaches the LED. Using Ohm's Law (V=IR) we can calculate that the current running through this circuit is 5 = I * 560 we can get that I = .0089 Amps or 8.9 mA. In order for the current to equal 15mA we have 5 = .015 * R so R = 322.6Ω. If 2.2V are dropped by the LED and we start with 5V we can see that the resistor drops 5 - 2.2 = 2.8V. </p>
 
     <h3> Simple LED Circuit with Switch </h3>

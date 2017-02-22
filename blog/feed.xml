@@ -12,7 +12,7 @@ layout: null
                 <title>{{ post.title | xml_escape }}</title>
                 <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
                 <description>{{ post.excerpt | xml_escape }}</description>
-                <link> {{ site.url | append: '/blog' | append: post.url | xml_escape }}</link>
+                <link> {{ site.url | append: post.url | xml_escape }}</link>
             </item>
         {% endfor %}
     </channel>

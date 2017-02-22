@@ -2,7 +2,7 @@
 layout: post
 title: Electricity Labs
 date: 2017-02-07
-url: http://awwalker.github.io/blog/2017/02/07/electricity-labs
+url: http://awwalker.github.io/2017/02/07/electricity-labs
 excerpt: These are the first of many labs completed for a Physical Computing class I took under Professor Amos Bloomberg at NYU.
 css: /blog/post.css
 

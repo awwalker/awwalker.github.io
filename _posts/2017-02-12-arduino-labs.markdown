@@ -2,7 +2,7 @@
 layout: post
 title: Arduino Labs
 date: 2017-02-12
-url: http://awwalker.github.io/blog/2017/02/12/arduino-labs
+url: http://awwalker.github.io/2017/02/12/arduino-labs
 excerpt: These are the second labs completed for a Physical Computing class I took under Professor Amos Bloomberg at NYU. Here we started using the arduino to program simple behaviors.
 css: /blog/post.css
 

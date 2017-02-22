@@ -2,7 +2,7 @@
 layout: post
 title: Visualizing How New Yorkers Utilize Citi Bikes
 date: 2015-10-27
-url: http://awwalker.github.io/blog/2015-10-27/citi-bikes
+url: http://awwalker.github.io/blog/2015/10/27/citi-bikes
 excerpt: Citi Bike is a New York City's bike sharing system instituted by Citi Bank and operated by Motivate. The bike sharing system is designed to
 css: /blog/post.css 
 

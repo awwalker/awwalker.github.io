@@ -2,7 +2,7 @@
 layout: post
 title: Visualizing a Path Through US Climbing Areas 
 date: 2015-07-28
-url: http://awwalker.github.io/blog/2015-07-28/visualizing-a-path-through-us-climbing-areas
+url: http://awwalker.github.io/blog/2015/07/28/visualizing-a-path-through-us-climbing-areas
 excerpt: Imagine for a moment that you are a dirtbag climber who wants to visit as many of the great American climbing locations in one trip. How can you
 css: /blog/post.css
 

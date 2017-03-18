@@ -1,0 +1,19 @@
+---
+layout: post
+title: Servo Labs
+date: 2017-03-07
+url: http://awwalker.github.io/2017/03/07/servo-labs
+excerpt: These labs work with the servo components of the Arduino kit.
+css: /blog/post.css
+
+---
+<section class="post-content">
+    <h3> Servo Motor Controlled by Pulse Width Modulation </h3>
+    <img src="/images/lab3/single_servo.gif" alt="Single Servo" width="400" height="400">
+    <p>We add a delay so that the servo motor can finish accomplishing the current requested rotation before receiving the next signal to rotate. Since 0 degrees -> 1.25 milliseconds and 180 degrees -> 1.75 milliseconds then 45 degrees -> 1.375 milliseconds. Since both the servo motor and speaker use something similar to pulse width modulation the sginal cannot be exchanged between both at the same time.</p>
+
+    <h3> Servo Motor Controlled by Potentiometer </h3>
+    <img src="/images/lab3/potentiometer_servo.gif" alt="Potentiometer Servo" width="400" height="400">
+    
+    <h3> Servo Motor Controlled by Pushbutton </h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/YsP15PauAMY" frameborder="0" allowfullscreen></iframe>

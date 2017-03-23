@@ -1,0 +1,18 @@
+---
+layout: post
+title: Interactive Toy
+date: 2017-03-20
+url: http://awwalker.github.io/2017/03/20/toy
+excerpt: Checkout the amazing toy I made using only the arduino UNO starter kit
+css: /blog/post.css
+
+---
+<section class="post-content">
+    <h3> Documentation </h3>
+    <p> This toy is intended to be used by infants in order to help improve their memory's abilities. Unfortunately, the basic kit for the arduino does not provide too many parts that are appropriate for users as fragile as infants. Specifically I wish I could have enlarged the size of the push buttons used as well as made the LEDs into less of a choking hazard than they currently are. Since infants are generally simplistic creatures this toy requires no real learning to enjoy. Of course in order to play it correctly a user must be able to recognize patterns and know which buttons control what, but in order to just make the game make noises and flash lights all one has to do is press the buttons. In this way the toy can be at once complex and simplistic. </p>
+
+    <img src="/images/toy/circuits.JPG" alt="Circuit Diagram" width="400" height="400">
+
+    <h3> Testing </h3>
+    <p> Unfortunately I did not have easy access to an infant and had to resort to using friends as test subjects for my toy. The general consensus was thqt the game starts easy and quickly gets hard. When asked if the toy could be used by an infant most responded that playing it in order to "win" (matching the patterns correctly), seemed to be asking a lot of children. However, they all agreed that an infant would have just as much fun pressing the buttons and seeing the lights flash and hearing the noises being played.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/g9_ReqNpiQw" frameborder="0" allowfullscreen></iframe>

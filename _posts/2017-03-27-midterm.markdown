@@ -1,0 +1,21 @@
+---
+layout: post
+title: Midterm Project
+date: 2017-03-27
+url: http://awwalker.github.io/2017/03/27/midterm
+excerpt: Checkout the awesome game my midterm team made using the arduino UNO, Python and JavaScript.
+css: /blog/post.css
+
+---
+<section class="post-content">
+    <h3> Breathalyzer Trivia </h3>
+    <img src="/images/midterm/circuit.jpg" alt="Circuit Diagram" width="400" height="400">
+    <img src="/images/midterm/final_design.jpg" alt="Final Design" width="400" height="400">
+    <h4> Background </h4>
+    <p> For our midterm project my group mates and I decided to create an interactive game combining trivia and drinking. The game works by cycling through a set of questions with a group of people on an interactive site. If a question is answered wrong the player who got it wrong has to take a drink and blow into the breathalyzer. If a user reaches a certain reading on the breathalyzer they must "tap out" and are eliminated from the game...last man standing wins. The game is also designed to live tweet updates from the game to a master twitter account. </p>
+    <h4> Process </h4>
+    <p> The circuitry involved in this project was fairly simple, requiring only one part not included in the Arduino UNO kit, the MQ135 air quality sensor that we used to test for alcohol. We used a design from a past semester as inspiration (https://arianaphyscomp.wordpress.com/2016/03/30/midterm-project-breathalyzer/). The only problem with using this sensor was that the sensitivity was hard to configure. Even basic breathing air would light up the LEDs and made us reconfigure the arduino code.</p>
+    <h4> Problems </h4>
+    <p> The other design challenge that we faced was getting all our pieces to communicate together. All three parts: the arduino, the JavaScript game, and the Python script function fine on their own but when we tried to link them all together we ran into seeral problems. The biggest problem was that the JavaScript code runs in the browser and therefore it was impossible to actually read from the serial port. We would have had to of rewritten our code to use node.js instead, which we weren't able to do with the amount of time given. Unfortunately this error also made it impossible to correctly implement our Twitter idea because the Python code required the data from the arduino and game to be transferred through the JavaScript code.</p>
+    <h4> Improvements </h4>
+    <p> Obviously our biggest available improvement would be to just get all the individual pieces to communicate the way we intened them to in the beginning. Looking back on our design choices and division of labor there were some mistakes made that we would hopefully avoid if we were to do this project again knowing what we do now. Our project was written using 3 different programming languages...something that I think would best be avoided next time around. As nice as it was to work in a vaccum away from the rest of the project it made it especially difficult to put all the pieces together at the end. I think it would have been easier if we all worked on the entire projet the whole time. </p>

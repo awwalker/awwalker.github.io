@@ -20,8 +20,10 @@ css: /blog/blog.css
               <time class='post-date' datetime="{{ page.date | date_to_string }}">{{ page.date | date_to_string }}</time>
           </section>
       </header>
-
-      <section class="post-content">
-          {{content}}
-      </section>
+    {{content}}
+    {% for js in page.jsarr %}
+    <script type="text/javascript">
+    {% include {{ js }} %}
+    </script>
+    {% endfor %}
     </div>
